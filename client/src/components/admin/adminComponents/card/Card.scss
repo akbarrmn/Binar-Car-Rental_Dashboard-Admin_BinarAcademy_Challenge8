@@ -1,0 +1,52 @@
+.cardCars{
+    .breadCrumb{
+        .breadcrumb{
+            margin-bottom: 0 !important;
+            margin-left: 2rem;
+        }
+    }
+    .create{
+        margin-left: 2rem;
+    }
+    .filterCars{
+        margin: 1rem 0 1rem 2rem;
+        .active{
+            color:#0D28A6 !important;
+            background-color: #CFD4ED !important;
+        }
+        .filter{
+            background: #FFFFFF;
+            border: 1px solid #0D28A6;
+            border-radius: 2px;
+            color: #0D28A6;
+            width: 77px;
+            height: 36px;
+        }
+    }
+    .cardList{
+        .buttonCard{
+            display: flex;
+            justify-content: space-between;
+            .delete{
+                background: #FFFFFF;
+                border: 1px solid #FA2C5A;
+                border-radius: 2px;
+                color: #FA2C5A;
+                width: 210px;
+                height: 48px;
+                &:hover{
+                    background-color:#a41f3c39;
+                }
+            }       
+            .edit{
+                background: #5CB85F;
+                border-radius: 2px;
+                width: 210px;
+                height: 48px;
+                &:hover{
+                    background-color:#5cb85f75;
+                }
+            }
+        }
+    }
+}

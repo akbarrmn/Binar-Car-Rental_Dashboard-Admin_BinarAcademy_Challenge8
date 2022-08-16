@@ -1,0 +1,38 @@
+.editCar{
+    padding: 0 2rem 2rem 2rem;
+    .formAdmin{
+        background-color: white;
+        padding: 2rem;
+        .foto{
+            flex-direction: column;
+            img{
+                align-self: center;
+                border: 5px solid #0D28A6;
+                border-radius: 5%;
+                object-fit:contain;
+            }
+        }
+    }
+    .buttonCars{
+        .cancel{
+            background: #FFFFFF;
+            border: 1px solid #0D28A6;
+            border-radius: 2px;
+            color: #0D28A6;
+            width: 70px;
+            height: 36px;
+            &:hover{
+                background: #989898;
+            }
+        }
+        .save{
+            background: #0D28A6;
+            border-radius: 2px;
+            width: 70px;
+            height: 36px;
+            &:hover{
+                background: #0d29a687;
+            }
+        }
+    }
+}

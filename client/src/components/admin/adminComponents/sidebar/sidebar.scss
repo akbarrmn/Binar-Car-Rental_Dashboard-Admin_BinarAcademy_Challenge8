@@ -1,0 +1,64 @@
+.sidebar{
+    flex:1;
+    border-right: 0.5px solid rgb(223, 222, 222);
+    min-height: 100vh;
+    background-color: #0D28A6;
+
+    .top{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo{
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    hr{
+        height: 0;
+        border: 0.5px solid rgb(223, 222, 222);
+    }
+
+    .center{
+        padding-left: 10px;
+        
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            .title{
+                font-size: 10px;
+                font-weight: bold;
+                color: rgb(255, 255, 255);
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+            li{
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: rgb(155, 155, 155);
+                }
+
+                .icon{
+                    font-size: 30px;
+                    color: rgb(255, 255, 255);
+                }
+
+                span{
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: rgb(255, 255, 255);
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

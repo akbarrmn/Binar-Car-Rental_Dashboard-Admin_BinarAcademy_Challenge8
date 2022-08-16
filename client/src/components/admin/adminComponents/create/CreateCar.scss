@@ -1,0 +1,55 @@
+.createCar{
+    padding: 0 2rem 2rem 2rem;
+
+    .notif{
+        margin-top: 1rem;
+        padding: 15px;
+        background-color: #73CA5C;
+        width: 20%;
+        box-shadow: -1px 3px 16px 10px rgba(0,0,0,0.12);
+        -webkit-box-shadow: -1px 3px 16px 10px rgba(0,0,0,0.12);
+        -moz-box-shadow: -1px 3px 16px 10px rgba(0,0,0,0.12);
+        border-radius: 5%;
+    }
+    h5{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .formAdmin{
+        background-color: white;
+        padding: 2rem;
+        .foto{
+            flex-direction: column;
+            img{
+                align-self: center;
+                border: 5px solid #0D28A6;
+                border-radius: 5%;
+                object-fit:contain;
+            }   
+        }
+    }
+    .buttonCars{
+        .cancel{
+            background: #FFFFFF;
+            border: 1px solid #0D28A6;
+            border-radius: 2px;
+            color: #0D28A6;
+            width: 70px;
+            height: 36px;
+            &:hover{
+                background: #989898;
+            }
+        }
+        .save{
+            background: #0D28A6;
+            border-radius: 2px;
+            width: 70px;
+            height: 36px;
+            &:hover{
+                background: #0d29a687;
+            }
+        }
+    }
+}
